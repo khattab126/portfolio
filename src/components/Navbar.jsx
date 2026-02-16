@@ -43,7 +43,7 @@ const Navbar = () => {
               whileTap={{ scale: 0.98 }}
             >
               <span className="text-white font-montserrat font-bold text-2xl leading-tight">
-                Alpha<span className="text-alpha-neon">.</span>
+                Alphacore<span className="text-alpha-neon">.</span>
               </span>
               <span className="text-gray-400 text-xs font-medium tracking-wide">
                 Software Solutions

@@ -41,7 +41,7 @@ const Footer = () => {
               className="flex flex-col mb-6"
             >
               <span className="text-white font-montserrat font-bold text-3xl leading-tight">
-                Alpha<span className="text-alpha-neon">.</span>
+                Alphacore<span className="text-alpha-neon">.</span>
               </span>
               <span className="text-gray-400 text-sm font-medium tracking-wide">
                 Software Solutions
