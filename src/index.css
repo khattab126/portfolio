@@ -129,3 +129,16 @@ input:focus, textarea:focus, select:focus {
   background: rgba(0, 212, 255, 0.3);
   color: #ffffff;
 }
+/* Image Carousel Optimizations */
+.image-render-optimized {
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  image-rendering: -webkit-optimize-contrast;
+  will-change: opacity;
+}
+
+.will-change-opacity {
+  will-change: opacity;
+  transform: translateZ(0);
+}

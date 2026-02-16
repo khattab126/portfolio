@@ -1551,18 +1551,19 @@ const FeaturedProjectShowcase = () => {
       {/* Main Card */}
       <div className="relative glass-strong rounded-3xl overflow-hidden">
         {/* TOP: Full-width Screenshot Carousel - shows complete image */}
-        <div className="relative w-full overflow-hidden">
+        <div className="relative w-full overflow-hidden bg-alpha-dark">
           <motion.div
-            key={activeFeature}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.4 }}
-            className="relative w-full"
+            transition={{ duration: 0.3 }}
+            className="relative w-full will-change-opacity"
           >
             <img
               src={project.screenshots[activeFeature].image}
               alt={project.screenshots[activeFeature].title}
-              className="block w-full h-auto"
+              className="block w-full h-auto image-render-optimized"
+              loading="lazy"
+              decoding="async"
             />
             {/* Subtle gradient overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-alpha-dark/50 via-transparent to-transparent" />
