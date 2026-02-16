@@ -337,7 +337,7 @@ const miniInstaPayProject = {
   subtitle: 'Enterprise Desktop Banking Application',
   description: 'A comprehensive banking and payment system desktop application built with JavaFX and Java 21. Features dual-interface support for clients and administrators, advanced 6-strategy fraud detection system, secure OTP-based authentication, real-time transaction processing, and SQLite database integration. Demonstrates enterprise-level security and clean architecture with MVC pattern and multiple design patterns.',
   tags: ['Java 21', 'JavaFX', 'SQLite', 'Security', 'MVC', 'Maven', 'Design Patterns'],
-  githubUrl: '#',
+  githubUrl: 'https://github.com/khattab126/bank-system',
   color: 'from-indigo-600 via-purple-500 to-pink-500',
   screenshots: [
     {
